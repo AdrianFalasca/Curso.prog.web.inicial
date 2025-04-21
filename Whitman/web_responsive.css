@@ -1,0 +1,1502 @@
+html{
+	background-image: url(fotos/foto4.jpg);
+	background-size: 12px;
+
+}
+body{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: serif;
+	
+}
+
+
+
+header{
+	
+    width:960px;
+	height: 50px;
+	background-color: #080908;
+    position: fixed;
+    z-index: 100;
+    
+
+    	}
+
+
+nav {
+	width:400px;
+	height: 40px;
+	margin-top: 5px;
+	float: right;
+
+	
+
+	
+}
+
+#menu-bar{
+	display: none;
+}
+
+.icon-menu{
+	display: none;
+
+}
+
+.icon-submenu{
+	display: none;
+}
+
+
+ul{
+ 	margin:0px;
+	padding: 0px;
+	list-style-type: none;
+	
+}
+
+
+ ul li{
+	display: inline;
+		
+
+}
+
+ul li a{
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 1px 1px #492904);
+	padding:10px;
+	color: gold;
+	opacity: .8;
+
+	
+
+}
+li a:hover{
+	color: rgb(250, 250, 250);
+	font-size: 20px;
+}
+#poemas3{
+	display: none;
+
+}
+
+#escritor{
+	width:400px;
+	height: 80px;
+	margin-top:10px;
+	margin-left: 5px;
+	float: left;
+	
+		}
+#escritor p{
+	color: gold;
+	font-style: bold;
+	font-size: 55px;
+	margin:0px;
+	text-align: center;
+	text-shadow: 1px 1px black;
+	opacity: .7;
+	
+	
+
+}
+
+
+
+
+
+section{
+	height: 750px;
+	border:solid;
+	background-color: rgb(0, 0, 0 );
+	
+    
+
+}
+
+#inicio{
+	height:300px;
+	box-shadow: 8px 8px 30px;
+	-webkit-box-shadow: 8px 8px 30px;
+	-moz-box-shadow: 8px 8px 30px;
+	
+
+}
+
+#libro{
+	height: 250px;
+	background-image: url(fotos/libro2.jpg);
+	background-size: 192px;
+	margin-top: 50px;
+}
+
+
+#biografia{
+
+  background:rgba(0,0,0, .5);
+	
+
+}
+#linea{
+   height: 1px;
+   background-color:rgb(128, 128, 128);
+   margin-top: 45px;
+}
+
+#palabras_1{
+	width:300px;
+	height:70px;
+	margin-top:65px;
+	margin-left: 320px;
+	
+}
+
+#palabras_1 h2 {
+	color: rgb(250, 250, 250);
+	font-style: bold;
+	text-align: center;
+	font-size: 45px;
+
+
+}
+
+
+#texto_1{
+	width:500px;
+	height: 500px;
+    float: left;
+	margin-top: 40px;
+	margin-left: 50px;
+}
+
+#texto_2{
+	width:300px;
+	height: 500px;
+	float: right;
+	margin-top: 40px;
+	margin-right: 50px;
+	
+}
+
+
+
+#texto_1 p {
+	color: rgb(250, 250, 250);
+	font-style: bold;
+	margin:0px;
+	text-align: justify;
+	font-size: 18px;
+}
+#texto_2 p {
+	color: rgb(250, 250, 250);
+	font-style: bold;
+	margin:0px;
+	text-align: justify;
+	font-size: 30px;
+	
+
+}
+
+
+#fotos{
+	background-color: rgb(0, 0, 0);
+
+
+}
+
+
+ #foto_1,#foto_2,#foto_3,#foto_4 {
+
+ 	-webkit-border-radius:15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	width:465px;
+	height: 335px;
+    margin-left: 5px;
+	margin-top: 10px;
+	margin-right: 5px;
+
+}
+
+#foto_1{
+	
+	
+	float: left;
+	margin-top: 60px;
+	background-image: url(fotos/foto1.jpg);
+	background-size: contain;
+	
+}
+
+#foto_2{
+
+
+	float: right;
+    margin-top: 60px;
+    background-image: url(fotos/foto5.png);
+	background-size: cover;
+	
+}
+
+#foto_3{
+	
+	
+	float: left;
+	background-image: url(fotos/foto2.jpg);
+	background-size: cover;
+	
+	}
+#foto_4{
+	
+	
+	float: right;
+	background-image: url(fotos/foto6.jpg);
+	background-size: cover;
+
+ 
+}
+
+#poemas{
+
+	 height: 700px;
+	 background:rgba(0, 0, 0, .5);
+
+
+}
+
+#bot_poemas{
+
+	width:100%;
+	height: 40px;
+	margin-top: 52px;
+	background-color: rgba(0, 0, 0, .3);
+	text-align: right;
+
+
+}
+
+
+
+#imagen{
+	margin-top: 120px;
+	margin-left: 260px;
+	position: absolute;
+	width: 450px;
+	height: 500px;
+	opacity: .8;
+	z-index: -5;
+	
+	
+
+}
+
+img{
+	width: 100%;
+}
+
+
+#poema{
+	width:550px;
+	height: 550px;
+	margin-top: 150px;
+	margin-left: 200px;
+	
+	
+	
+}
+
+
+#poema p, h1 {
+	color: rgb(250, 250, 250);
+	font-style: bold;
+	margin:0px;
+	text-align:  center;
+	font-size: 22px;
+
+
+}
+
+
+
+
+footer{
+	height: 50px;
+	background-color: #080908;
+
+	
+}
+
+
+
+
+footer #contacto{
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin:10px;
+	
+
+}
+
+
+
+ form{
+ 	
+	transition: all 0.5s;
+	transform: translatex(-250%);
+	position: fixed;
+    width: 210px;
+	height: auto;
+	min-height: 330px;
+	margin-left: -6px;
+	background-color: white;
+	z-index: 90;
+	border-radius: 5px;
+	padding: 10px 20px;
+	bottom: 60px;
+	
+	
+}
+
+#mail-icono{
+	display: none;
+}
+
+
+#mail-icono:checked ~ form{
+	
+	transform: translatex(0%);
+	
+
+}
+
+
+#contacto label{
+
+	
+	font-size: 18px;
+	cursor: pointer;
+	
+}
+
+
+
+ #contacto .icon-mail{
+
+	color: gold;
+
+
+}
+
+
+
+form h2 {
+	
+	text-align: center;
+	font-size: 25px;
+	margin-top: 10px;
+	color: black;
+
+
+}
+
+ form input, textarea{
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 10px; 
+	font-size: 14px;
+}
+
+ textarea{
+
+	min-width: 210px;
+	max-width: 210px;
+	min-height: 100px;
+	max-height: 300px;
+}
+
+#boton{
+	
+	padding: 3px;
+
+}
+
+#boton:hover{
+	cursor: pointer;
+	color: white;
+	background-color: black;
+}
+
+
+
+#datos_2 p {
+	color: gold;
+	font-weight: bold;
+	margin: 3px;
+	text-align:right;
+}
+
+#datos_2{
+	width:250px;
+	height: 50px;
+    float: right;
+    
+
+}
+
+
+
+
+
+
+/***********************************************************************************************************/
+
+
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+
+
+
+
+
+
+
+body{
+	
+	width: 580px;
+	
+}
+header{
+	
+    width:580px;
+	height: 50px;
+
+		}
+
+nav{
+	width:320px;
+	height: auto;
+	margin: auto;
+	text-align: right;
+	
+	
+}
+
+
+#escritor{
+	width:250px;
+	height: 60px;
+	margin-top: 5px;
+	margin-left: 5px;
+	
+}
+
+#escritor p{
+	font-size: 42px;
+}
+
+
+#palabras_1{
+	width:500px;
+	height:50px;
+	margin:auto;
+	margin-top: 50px;
+	
+
+}
+
+#palabras_2{
+	margin-top: 10px;
+	margin-left: 60px;
+
+}
+
+#palabras_1 h2 {
+	
+	font-size: 26px;
+}
+
+#texto_1 p {
+	
+	font-size: 17px;
+}
+#texto_2 p {
+	
+	font-size: 22px;
+	
+}
+
+#texto_1{
+	width:540px;
+	height: 380px;
+    float: none;
+	margin:auto;
+	margin-top: 10px;
+		
+}
+#texto_2{
+	width:540px;
+	height: 150px;
+	float: none;
+	margin:auto;
+	margin-top: 10px;
+	
+}
+
+
+
+ #foto_1,#foto_2,#foto_3,#foto_4 {
+
+ 
+	width:275px;
+	height: 275px;
+	margin-top: 20px;
+	
+
+}
+
+#foto_1{
+	
+	
+	margin-top: 100px;
+	background-size: cover;
+
+}
+	
+
+#foto_2{
+
+    margin-top: 100px;
+  
+}
+
+
+
+
+
+
+#bot_poemas{
+	padding-right: 0px;
+	
+}
+
+#imagen{
+	
+	margin-left: 60px;
+	
+}
+
+#poema{
+	width:450px;
+	margin-left: 60px;
+
+	
+}
+
+
+
+
+footer{
+	height: 50px;
+	
+	
+}
+
+
+
+}
+
+
+
+
+
+/*******************************************************************************************************************/
+
+
+@media all and (min-width: 470px) and (max-width: 599px){
+
+
+
+
+
+
+	body{
+	
+	width:90%;
+	
+
+
+	
+}
+header{
+	
+    width:90%;
+	height: 50px;
+	
+}
+
+nav{
+	width:100%;
+	height: 100vh;
+	margin:auto;
+	position: absolute;
+	top: 50px;
+	background-color: rgba(0, 0, 0, .8);
+	transition: all 0.5s;
+	transform: translatey(-140%);
+
+}
+
+
+
+
+#menu-bar:checked ~ nav{
+	
+	transform: translatey(0%);
+	
+
+}
+
+
+
+.icon-menu{
+	display: block;
+
+
+}
+
+.icon-submenu{
+	color: white;
+}
+
+header label{
+
+	float: right;
+	font-size: 22px;
+	margin-right: 10px;
+	margin-top: 12px;
+	color: gold;
+	cursor: pointer;
+}
+
+
+ul li{
+	display: block;
+	text-align: center;
+
+}
+
+ul li a {
+	border-bottom: 1px solid white;
+
+
+}
+
+ul li:hover #poemas3{
+	display: block;
+	
+}
+
+
+
+
+#escritor{
+	width: auto;
+	height: auto;
+	margin-left: 10px;
+	margin-top: 3px;
+	
+	}
+
+
+#escritor p{
+	
+	font-size: 45px;
+	text-align: left;
+}
+
+section{
+	height: auto;
+}
+
+
+
+#inicio{
+	height: 310px;
+	width: auto;
+   
+}
+
+#libro{
+	
+	width: 396px;
+	margin:auto;
+	margin-top: 60px;
+
+}
+
+
+#palabras_1{
+	width:100%;
+	height:auto;
+	margin:auto;
+	margin-top: 50px;
+
+}
+
+#palabras_1 h2 {
+	
+	font-size: 26px;
+
+}
+
+
+
+#texto_1, #texto_2{
+	width:100%;
+	height: auto;
+    float: none;
+	margin:auto;
+	margin-bottom: 20px;
+		
+}
+
+#texto_1 p {
+	
+	font-size: 17px;
+	margin: 10px;
+}
+#texto_2 p {
+	
+	font-size: 22px;
+	margin: 10px;
+	
+
+}
+
+ #foto_1,#foto_2,#foto_3,#foto_4 {
+
+ 	
+	width:275px;
+	height: 275px;
+   margin:auto;
+   margin-bottom: 15px;
+
+}
+
+#foto_1{
+	
+	
+	float: none;
+	margin-top: 100px;
+	background-size: cover;
+	
+}
+
+#foto_2{
+
+
+	float: none;
+	
+}
+
+#foto_3{
+	
+	float: none;
+
+	}
+
+#foto_4{
+	
+	float: none;
+	
+}
+
+
+
+#bot_poemas{
+
+	display: none;
+
+}
+
+
+#imagen{
+	display: none;
+
+
+
+}
+
+
+#poemas{
+
+	height: auto;
+	min-height: 650px;
+}
+
+#poema{
+	
+	width:95%;
+	height: auto;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 40px;
+	
+
+}
+
+
+
+#poema p, h1{
+	font-size: 20px;
+	
+}
+
+
+
+
+
+footer{
+	height: 40px;
+
+	
+}
+
+
+footer #contacto{
+	
+	width: 20px;
+	height: 20px;
+	
+	
+
+	
+}
+
+
+#contacto label{
+
+	
+	font-size: 15px;
+	
+
+}
+
+
+
+#datos_2{
+	width:220px;
+	height: auto;
+	
+   
+}
+
+#datos_2 p {
+	
+	font-size: 12px;
+	
+}
+
+
+
+
+}
+
+
+
+
+/************************************************************************************************************************/
+
+
+
+
+@media all and (min-width:330px) and (max-width: 469px){
+
+
+
+
+
+
+
+		body{
+	
+	width:90%;
+	
+}
+
+header{
+	
+    width:90%;
+	height: 50px;
+
+	
+}
+
+
+
+
+nav{
+	width:100%;
+	height: 100vh;
+	margin:auto;
+	position: absolute;
+	top: 50px;
+	background-color: rgba(0, 0, 0, .8);
+	transition: all 0.5s;
+	transform: translatey(-140%);
+
+}
+
+
+
+
+#menu-bar:checked ~ nav{
+	
+	transform: translatey(0%);
+	
+
+}
+
+
+
+.icon-menu{
+	display: block;
+
+
+}
+
+.icon-submenu{
+	color: white;
+}
+
+header label{
+
+	float: right;
+	font-size: 20px;
+	margin-right: 10px;
+	margin-top: 12px;
+	color: gold;
+	cursor: pointer;
+}
+
+
+ul li{
+	display: block;
+	text-align: center;
+
+}
+
+ul li a {
+	border-bottom: 1px solid white;
+
+
+}
+
+ul li:hover #poemas3{
+	display: block;
+	
+}
+
+
+
+
+#escritor{
+	width: auto;
+	height: auto;
+	margin-left: 10px;
+	margin-top: 5px;
+	
+	
+		}
+
+#escritor p{
+	
+	font-size: 40px;
+	text-align: left;
+}
+
+section{
+	height: auto;
+}
+
+
+#inicio{
+	height: 310px;
+	width: auto;
+   
+}
+
+#libro{
+	
+	height: 250px;
+	width: 190px;
+	margin:auto;
+	margin-top: 60px;
+
+}
+
+#palabras_1{
+	width:100%;
+	height:auto;
+	margin:auto;
+	margin-top: 50px;
+
+
+}
+
+
+#palabras_1 h2 {
+	
+	font-size: 26px;
+
+}
+
+
+
+#texto_1, #texto_2{
+	width:100%;
+	height: auto;
+    float: none;
+	margin:auto;
+	margin-bottom: 20px;
+	
+	
+}
+
+
+#texto_1 p {
+	
+	font-size: 17px;
+	margin: 10px;
+}
+#texto_2 p {
+	
+	font-size: 22px;
+	margin: 10px;
+	
+
+}
+
+ #foto_1,#foto_2,#foto_3,#foto_4 {
+
+ 	
+	width:275px;
+	height: 275px;
+   margin:auto;
+   margin-bottom: 15px;
+
+}
+
+
+#foto_1{
+	
+	float: none;
+	margin-top: 100px;
+	background-size: cover;
+	
+}
+
+#foto_2{
+
+
+	float: none;
+  
+}
+
+#foto_3{
+	
+	float: none;
+	
+	}
+#foto_4{
+	
+	
+	float: none;
+	
+}
+
+#poemas{
+	height: auto;
+	min-height: 650px;
+}
+
+#bot_poemas{
+	display: none;
+
+	
+}
+
+
+#imagen{
+	display: none;
+
+
+
+}
+
+#poema{
+	width:95%;
+	height: auto;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 40px;
+	
+
+}
+
+#poema p, h1{
+	font-size: 18px;
+}
+
+
+
+footer{
+	height: 40px;
+	
+
+	
+}
+
+
+
+footer #contacto{
+	
+	width: 20px;
+	height: 20px;
+	
+	
+
+	
+}
+
+
+#contacto label{
+
+	
+	font-size: 15px;
+	
+
+}
+
+
+
+
+#datos_2{
+	width:220px;
+	height: auto; 
+
+}
+
+#datos_2 p {
+	
+	font-size: 12px;
+	
+}
+
+
+}
+
+
+
+/****************************************************************************************************************************/
+
+
+
+
+
+@media all and (max-width: 329px){
+
+		
+
+
+
+
+		body{
+	
+	width:90%;
+	
+}
+
+header{
+	
+    width:90%;
+	height: 50px; 
+	
+}
+
+
+
+nav{
+	width:100%;
+	height: 100vh;
+	margin:auto;
+	position: absolute;
+	top: 50px;
+	background-color: rgba(0, 0, 0, .8);
+	transition: all 0.5s;
+	transform: translatey(-140%);
+
+}
+
+
+
+
+#menu-bar:checked ~ nav{
+	
+	transform: translatey(0%);
+	
+
+}
+
+
+
+.icon-menu{
+	display: block;
+
+
+}
+
+.icon-submenu{
+	color: white;
+}
+
+header label{
+
+	float: right;
+	font-size: 17px;
+	margin-right: 10px;
+	margin-top: 14px;
+	color: gold;
+	cursor: pointer;
+}
+
+
+ul li{
+	display: block;
+	text-align: center;
+
+}
+
+ul li a {
+	border-bottom: 1px solid white;
+
+
+}
+
+ul li:hover #poemas3{
+	display: block;
+	
+}
+
+
+
+#escritor{
+	width: auto;
+	height: auto;
+	margin-left: 5px;
+	margin-top: 10px;
+
+	
+	
+		}
+
+#escritor p{
+	
+	font-size: 35px;
+	text-align: left;
+}
+
+section{
+	height: auto;
+}
+
+
+#inicio{
+	height: 310px;
+	width: auto;
+   
+}
+
+#libro{
+	
+	height: 250px;
+	width: 190px;
+	margin:auto;
+	margin-top: 60px;
+
+}
+
+#palabras_1{
+	width:100%;
+	height:auto;
+	margin:auto;
+	margin-top: 50px;
+
+
+}
+
+
+#palabras_1 h2 {
+	
+	font-size: 26px;
+
+}
+
+
+#texto_1, #texto_2{
+	width:100%;
+	height: auto;
+    float: none;
+	margin:auto;
+	margin-bottom: 20px;
+	
+	
+}
+
+
+#texto_1 p {
+	
+	font-size: 17px;
+	margin: 10px;
+}
+#texto_2 p {
+	
+	font-size: 22px;
+	margin: 10px;
+	
+
+}
+
+ #foto_1,#foto_2,#foto_3,#foto_4 {
+
+ 	
+	width:auto;
+	height:275px;
+   margin:auto;
+   margin-bottom: 15px;
+
+}
+
+
+#foto_1{
+	
+	float: none;
+	margin-top: 100px;
+	background-size: cover;
+	
+}
+
+#foto_2{
+
+
+	float: none;
+	
+}
+
+#foto_3{
+	
+	float: none;
+	
+	}
+#foto_4{
+	
+	
+	float: none;
+	
+}
+
+
+
+#poemas{
+	height: auto;
+	min-height: 650px;
+}
+
+#bot_poemas{
+	display: none;
+
+	
+}
+
+#imagen{
+    
+	
+	display: none;
+	
+
+}
+
+#poema{
+	width:95%;
+	height: auto;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 40px;
+	
+
+}
+
+#poema p, h1{
+	font-size: 18px;
+}
+
+
+
+footer{
+	height: 40px;
+	
+	
+	
+}
+
+
+
+footer #contacto{
+	
+	width: 20px;
+	height: 20px;
+	margin:0px;
+	margin-top: 10px;
+	margin-left: 10px;
+	
+	
+
+	
+}
+
+
+#contacto label{
+
+	
+	font-size: 15px;
+	
+
+}
+
+
+#datos_2{
+	width:220px;
+	height: auto; 
+
+}
+
+
+#datos_2 p {
+	
+	font-size: 12px;
+	
+}
+
+
+}
